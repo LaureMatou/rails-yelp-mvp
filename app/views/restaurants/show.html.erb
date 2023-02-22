@@ -1,0 +1,8 @@
+<div class="container">
+  <h1><%= @restaurant.name %></h1>
+  <p><%= @restaurant.category %> restaurant</p>
+
+  <p>Address: <%= @restaurant.address %></p>
+  <p>Phone number: <%= @restaurant.phone_number %></p>
+  <p><%= render 'reviews/form' %></p>
+</div>
